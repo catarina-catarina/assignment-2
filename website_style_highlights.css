@@ -1,0 +1,68 @@
+/*Highlights.*/
+
+.aside {
+    width: calc(var(--spacing)*20);
+}
+
+.profile {
+    background: var(--colour-container);
+    border: calc(var(--spacing)*0.1) solid var(--colour-black);
+    border-radius: calc(var(--spacing)*0.2);
+    box-shadow: 0 0.2rem 0.8rem var(--colour-shadow);
+    font-family: var(--font-quick-menu);
+    width: inherit;
+    height: fit-content;
+    position: fixed;
+}
+
+.profile-title {
+    border-bottom: calc(var(--spacing)*0.1) solid var(--colour-black);
+    padding: calc(var(--spacing)*1.2);
+}
+
+.profile-description {
+    border-bottom: calc(var(--spacing)*0.1) solid var(--colour-black);
+    padding: calc(var(--spacing)*1.2);
+}
+
+.profile-links {
+    padding: calc(var(--spacing)*1.2);
+}
+
+.highlights {
+    row-gap: var(--spacing);
+    width: calc(var(--spacing)*40);
+}
+
+.shortcut {
+    background: var(--colour-container);
+    border: calc(var(--spacing)*0.1) solid var(--colour-black);
+    border-radius: calc(var(--spacing)*0.2);
+    box-shadow: 0 0.2rem 0.8rem var(--colour-shadow);
+    font-family: var(--font-quick-menu);
+    margin-bottom: var(--spacing);
+    padding: calc(var(--spacing)*0.8);
+}
+
+.highlights-post {
+    background: var(--colour-container);
+    border: calc(var(--spacing)*0.1) solid var(--colour-black);
+    border-radius: calc(var(--spacing)*0.2);
+    box-shadow: 0 0.2rem 0.8rem var(--colour-shadow);
+    font-family: var(--font-quick-menu);    
+    margin-bottom: var(--spacing);
+}
+
+.post-title {
+    border-bottom: calc(var(--spacing)*0.1) solid var(--colour-black);
+    padding: calc(var(--spacing)*0.8);
+}
+
+.highlights-post img {
+    border-bottom: calc(var(--spacing)*0.1) solid var(--colour-black);
+    width: 100%;
+}
+
+.post-description {
+    padding: calc(var(--spacing)*0.8);
+}

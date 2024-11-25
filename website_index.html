@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>This is my website — look how cool it is! Wow‼</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Local style files.-->
+    <link rel="stylesheet" href="website_style.css">
+    <link rel="stylesheet" href="website_style_quick_menu.css">
+    <link rel="stylesheet" href="website_style_main_body.css">
+    <link rel="stylesheet" href="website_style_highlights.css">
+    <link rel="stylesheet" href="website_style_art_gallery.css">
+</head>
+
+<body>
+    <!--Quick menu.-->
+    <div class="header">
+        <div class="align-center flex quick-menu">
+            <!--Logo.-->
+            <a class="align-center flex" href="website_index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <defs>
+                        <style>
+                            .a,
+                            .b {
+                                fill: none;
+                                stroke: rgb(220, 210, 200);
+                                stroke-miterlimit: 10;
+                                stroke-width: 6px;
+                            }
+
+                            .a {
+                                stroke-linecap: round;
+                            }
+                        </style>
+                    </defs>
+                    <title>logo_0</title>
+                    <circle class="b" cx="50" cy="50" r="47"></circle>
+                    <circle class="b" cx="27" cy="50" r="23"></circle>
+                    <circle class="b" cx="73" cy="50" r="23"></circle>
+                    <line class="a" x1="36" y1="28" x2="50" y2="14"></line>
+                    <line class="a" x1="50" y1="14" x2="64" y2="28"></line>
+                    <line class="a" x1="19" y1="44" x2="35" y2="44"></line>
+                    <line class="a" x1="65" y1="44" x2="81" y2="44"></line>
+                    <line class="a" x1="19" y1="56" x2="35" y2="56"></line>
+                    <line class="a" x1="65" y1="56" x2="81" y2="56"></line>
+                    <path class="b" d="M40,67a11.3,11.3,0,0,0,20,0"></path>
+                </svg>
+            </a>
+            <!--Clock.-->
+            <div class="align-center flex">
+                <span id="hours"></span>:<p id="minutes"></p>
+            </div>
+        </div>
+        <div class="quick-menu-blank"></div>
+    </div>
+
+    <!--Main body.-->
+    <div class="flex main-body">
+        <div class="aside flex">
+            <div class="margin-top profile">
+                <div class="flex profile-title">profile.</div>
+                <div class="profile-description">Hi! I'm a student learning how to art, code and model‼</div>
+                <div class="profile-links">
+                    <a href="documents/catarina_magalhães_europass_cv.pdf">my europass cv.</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="highlights">
+            <div class="margin-top shortcut">
+                <a href="website_gallery.html">art shortcut.</a>
+            </div>
+            <div class="shortcut">
+                <a href="#">another shortcut.</a>
+            </div>
+            <div class="highlights-post">
+                <div class="post-title">look! a cool animation i did.</div>
+                <img src="animation/animation_0.gif" alt="">
+                <div class="post-description">24 of November, 2024.</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="website_script_clock.js"></script>
+</body>
+
+</html>

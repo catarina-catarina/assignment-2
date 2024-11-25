@@ -1,0 +1,7 @@
+/*Main body.*/
+
+.main-body {
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80rem;
+}

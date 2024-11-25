@@ -1,0 +1,27 @@
+/*Art gallery.*/
+
+.gallery {
+    display: flex;
+    gap: var(--spacing);
+    margin-top: 5rem;
+    width: 80rem;
+    position: relative;
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    width: 26rem;
+}
+
+.gallery-image {
+    border: calc(var(--spacing)*0.1) solid var(--colour-black);
+    border-radius: calc(var(--spacing)*0.2);
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

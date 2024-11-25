@@ -1,0 +1,38 @@
+/*Quick menu.*/
+
+.header {
+    /*This keeps the quick menu on top of the page even while scrolling.*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.quick-menu {
+    /*Colours.*/
+    background-color: var(--colour-black);
+    color: var(--colour-white);
+    /*Fonts.*/
+    font-family: var(--font-quick-menu);
+    font-size: 1rem;
+    /*Shadow.*/
+    box-shadow: 0 0.2rem 0.8rem var(--colour-shadow);
+    /*This keeps the quick menu’s shadow over the header’s blank space.*/
+    position: sticky;
+    z-index: 1;
+    /*…*/
+    gap: var(--spacing);
+    height: calc(var(--spacing)*2);
+    padding: var(--spacing);
+}
+
+.quick-menu svg {
+    width: 1.4rem;
+}
+
+.quick-menu-blank {
+    background-color: var(--colour-white);
+    height: var(--spacing);
+}
+
+/*…*/

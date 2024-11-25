@@ -1,0 +1,42 @@
+/*Variables.*/
+
+:root {
+    /*Colours.*/
+    --colour-black: rgb(40, 40, 40);
+    --colour-container: rgb(200, 190, 180);
+    --colour-shadow: rgb(120, 110, 100);
+    --colour-white: rgb(220, 210, 200);
+    /*Fonts.*/
+    --font-quick-menu: "Inconsolata", monospace;
+    /*…*/
+    --spacing: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: var(--colour-white);
+    color: var(--colour-black);
+}
+
+/*…*/
+
+.align-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.margin-left {
+    margin-left: var(--spacing);
+}
+
+.margin-top {
+    margin-top: calc(var(--spacing)*8);
+}
